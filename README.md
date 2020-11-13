@@ -1,1 +1,1 @@
-# Student Score Prediction
+# Students Scores Prediction
