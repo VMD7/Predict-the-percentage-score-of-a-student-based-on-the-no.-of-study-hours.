@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Score Predictor</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body style="background-color:powderblue; text-align: center; ">
+
+ <div class="login">
+	<h1 style="background-color:SlateBlue;">Predict Score of a Student from Study Hours</h1>
+	
+	<h2>Enter how many hours student study per day</h2>
+	<p style="position : absolute; bottom : 0;">Note - There is one limitation to this App. While entering the study hours we assumed that those students who study more than or equal to 10 hours per day will got highest accuracy which is 99.47%.  </p>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="Study Hours" placeholder="Study Hours" required="required" />
+   
+        <button type="submit" class="btn btn-primary btn-block btn-large" style="background-color:tomato;">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
