@@ -1,6 +1,6 @@
 # Students Scores Prediction From Their Study Hours
 
-This is Task1 of The Sparks Foundataion GRIP. This is simple linear regression type problem.
+This is Task1 of The Sparks Foundation GRIP. This is simple linear regression type problem.
 
 In this repository I used linear regression algorithm to identify the score of a student from his/her study hours. 
 
