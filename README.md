@@ -6,7 +6,7 @@ In this repository I used linear regression algorithm to identify the score of a
 
 Also, I deployed this Machine Learning model on Heroku and created a Web-App (https://sspredictor.herokuapp.com/).
 
-## 1) Code of Score Prediction Model
+## Code of Score Prediction Model
 
 To understand this repository follow the below steps:
 
