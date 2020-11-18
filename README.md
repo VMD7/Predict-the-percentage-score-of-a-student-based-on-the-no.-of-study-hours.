@@ -6,28 +6,17 @@ In this repository I used linear regression algorithm to identify the score of a
 
 Also, I deployed this Machine Learning model on Heroku and created a Web-App (https://sspredictor.herokuapp.com/).
 
-## 1) Handwritten Text Recognition Using CRNN
-To use this repository on your loacal machine or Google Colab follow the below steps:
+## 1) Code of Score Prediction Model
 
-### For Google Colab
+To understand this repository follow the below steps:
 
-1) First Clone and Download this repository. 
+1) First Clone, Fork or Download this repository or you can run Task1.ipynb on Google Colab. 
 
-2) Then download the handwritten IAM dataset from this link - (http://www.fki.inf.unibe.ch/databases/iam-handwriting-database/download-the-iam-handwriting-database) or (http://www.fki.inf.unibe.ch/DBs/iamDB/data/words)
+2) The dataset used is (http://bit.ly/w-data).
 
-3) Creat your kaggle account and upload this data in kaggle.
+3) Now, you can run Task1.ipynb or Task1_app.ipynb file locally or online.
 
-4) Go to "Your Account" and create New "API" and download the .json file.
-
-5) Now upload the "words.txt"  to your Google Drive which is in "Data" folder of "HTR_Using_CRNN" folder.
-
-6) Change necessary directories such as words.txt, .json file locations in code.
-
-7) Now follow the HTR_Using_CRNN.ipynb
-
-### For Local Machine
-
-Skip steps 2,3,4,5 also don't use Kaggle setting up section code in "HTR_Using_CRNN.ipynb" file.
+### You can check the deployed App on https://sspredictor.herokuapp.com/
 
 
 
