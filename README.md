@@ -16,6 +16,8 @@ To understand this repository follow the below steps:
 
 3) Now, you can run Task1.ipynb or Task1_app.ipynb file locally or online.
 
+4) All, the uses and instructions are written in code file itself.
+
 ### You can check the deployed App on https://sspredictor.herokuapp.com/
 
 
